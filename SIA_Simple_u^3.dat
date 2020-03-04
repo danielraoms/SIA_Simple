@@ -1,0 +1,13 @@
+integer, parameter :: dimensao = 2				 !dimensão do domínio omega, que normalmente é uma bola de raio 1 centrada no zero
+integer, parameter :: N = 1001					 !número de pontos da malha 1D
+double precision, parameter :: a = 0.0d0, b = 1.0d0, p = 3.0d0 	 !da equação
+double precision, parameter :: c = 0.0d0, d = 1.0d0	 	 !domínio
+double precision, parameter :: tol = 1e-6			 !tolerância para convergência da norma H0_1
+double precision, parameter :: w_sor = 1.8 
+
+The algorithm has converged with   9.9999999747524271E-007 tolerance.
+ H0_1 norm of solution:   6.6207775336904886     
+ L^infty norm of solution:   3.5663991559552946        12.719202939598636     
+ Energy of the functional J(v) =    10.990410848454340     
+ Simulation has ended successfully.
+
